@@ -8,7 +8,7 @@ class AIBro
 
     def chat(user_prompt)
       model = Rllama.load_model('lmstudio-community/gemma-3-1B-it-QAT-GGUF/gemma-3-1B-it-QAT-Q4_0.gguf')
-      result = model.generate(user_prompt)
+      result = model.generate(user_prompt, system: system_prompt)
       model.close
       result.text
     end

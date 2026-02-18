@@ -6,6 +6,13 @@ I just want to work with AI models in Ruby not Python or C /// :) \\\
 
 "They hop on the wave like a cruise ship" - Diego Money
 
+### Docs
+
+#### Class methods you can use to customize AI model
+
+##### description
+
+You can describe how you want the AI model to act and it will try to follow this. This is just simply setting the system prompt on the request.
 
 ### Example usage
 
