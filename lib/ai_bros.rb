@@ -1,5 +1,2 @@
-class AiBros
-  def self.hello
-    puts 'Hello World'
-  end
-end
+require 'rllama'
+require_relative "./ai_bro.rb"
